@@ -1,0 +1,11 @@
+# mod_rewrite
+RewriteEngine on
+
+# Open .html not Folder
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check .html file
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Show .html page
+RewriteRule ^(.*)$ $1.html [NC,L]
