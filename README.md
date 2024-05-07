@@ -1,2 +1,2 @@
-# JasonType.me
-https://www.JasonType.me
+# JasonType.live
+https://www.JasonType.live
